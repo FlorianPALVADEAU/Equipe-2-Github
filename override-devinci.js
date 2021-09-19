@@ -1,2 +1,2 @@
-document.getElementsByTagName('body')[0].classList.add('override');
-document.getElementsByClassName('accordion-heading').classList.add('override');
+document.getElementsByTagName('body')[0].classList.add('override')
+document.querySelectorAll('header').classList.add('override2')
