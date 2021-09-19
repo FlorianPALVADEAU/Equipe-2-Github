@@ -12,3 +12,8 @@
 {
     color: white;
 }
+
+.alert alert-info
+{
+    background-color: #363431;
+}
