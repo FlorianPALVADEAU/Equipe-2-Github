@@ -7,15 +7,9 @@ Ceci est le css de florian le bg ultime. Je code de mon coté parce que ça fait
 
 :root {
     --background-color-features: #ededed;
-    --background-color-edt: #919191;
-    --background-color-body: #272727;
+    --background-color-edt: #bebebe;
+    --background-color-body: #1f1f1f;
     --text-color: #151313;
-}
-
-
-.scrollable,
-container-fluid {
-    background-color: var(--background-color-edt);
 }
 
 .scrollable .accordion-group .accordion-heading a span {
@@ -28,11 +22,12 @@ container-fluid {
     color: white;
 }
 
+.scrollable,
+container-fluid,
 .breadcrumb small_margin,
 .fc-view-container {
     background-color: var(--background-color-edt);
 }
-
 
 alert alert-info p {
     color: var(--text-color);
@@ -46,35 +41,19 @@ alert alert-info p {
     background-color: gray;
 }
 
-.page-title {
-    color: var(--background-color-features);
-}
-
-.alert alert-info {
-    color: var(--background-color-features);
-}
-
 .override {
     background-color: var(--background-color-body);
 }
 
-.override2 {
+.page-title,
+.alert alert-info,
+.override2,
+.body,
+footer,
+.footer-sidebar-full,
+.well well-condensed {
     background-color: var(--background-color-features);
 }
-
-.body {
-    background-color: var(--background-color-features);
-}
-
-footer {
-    background-color: var(--background-color-features);
-}
-
-.footer-sidebar-full {
-    background-color: var(--background-color-features);
-}
-
-
 
 span12 header {
     background-color: #714d95;
@@ -86,11 +65,9 @@ span12 header {
     background-color: gray;
 }
 
-
 .span6 header {
     background-color: #714d95;
 }
-
 
 .calendar .fc-view-container .fc-body .fc-widget-content .fc-time-grid-container fc-scroller .fc-time-grid .fc-bg .fc-content-skeleton table tbody tr {
     background-color: red;
@@ -101,8 +78,4 @@ span12 header {
     margin-left: 5px;
     border-radius: 15px;
     background-color: invert(100%);
-}
-
-.well well-condensed {
-    background-color: var(--background-color-features);
 }
