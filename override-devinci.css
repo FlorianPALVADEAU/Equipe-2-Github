@@ -3,16 +3,24 @@
 }
 
 :root {
-    --background-color-features: #ededed;
-    --background-color-edt: #919191;
-    --background-color-body: #272727;
+    --background-color-features: #e7e6e0;
+    --background-color-edt: #858585;
+    --background-color-body: #2e2d2d;
     --text-color: #151313;
+    --text-color-white: rgb(170, 189, 197);
+    --text-outline: 0.5px rgb(3, 3, 34);
 }
 
 
 .scrollable,
-container-fluid {
+container-fluid,
+.breadcrumb small_margin,
+.fc-view-container {
     background-color: var(--background-color-edt);
+}
+
+.alert alert-info p {
+    color: var(--text-color);
 }
 
 .scrollable .accordion-group .accordion-heading a span {
@@ -35,9 +43,13 @@ alert alert-info p {
     color: var(--text-color);
 }
 
+
 .social-sidebar {
-    font-size: 10px;
+    font-size: 12px;
+    color: var(--text-color-white);
+    -webkit-text-stroke: var(--text-outline);
 }
+
 
 .row-fluid {
     background-color: gray;
@@ -56,6 +68,16 @@ alert alert-info p {
 }
 
 .override2 {
+    background-color: var(--background-color-features);
+}
+
+.page-title,
+.alert alert-info,
+.override2,
+.body,
+footer,
+.footer-sidebar-full,
+.well well-condensed {
     background-color: var(--background-color-features);
 }
 
@@ -79,8 +101,9 @@ span12 header {
 .span12 .table table-bordered table-striped table-condensed,
 .tab-pane active .accordion-group {
     background-color: gray;
+    color: var(--text-color-white);
+    -webkit-text-stroke: var(--text-outline);
 }
-
 
 .span6 header {
     background-color: #714d95;
