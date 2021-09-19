@@ -5,7 +5,7 @@
 :root {
 
     --background-color-features: #ededed;
-    --background-color-edt: #919191;
+    --background-color-edt: black;
     --background-color-body: #272727;
     --text-color: #151313;
 }
@@ -43,7 +43,7 @@ container-fluid {
 }
 
 .row-fluid {
-    background-color: gray;
+    background-color: black;
 }
 
 .page-title {
