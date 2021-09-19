@@ -6,10 +6,12 @@ Ceci est le css de florian le bg ultime. Je code de mon coté parce que ça fait
 }
 
 :root {
-    --background-color-features: #ededed;
-    --background-color-edt: #bebebe;
-    --background-color-body: #1f1f1f;
+    --background-color-features: #e7e6e0;
+    --background-color-edt: #858585;
+    --background-color-body: #2e2d2d;
     --text-color: #151313;
+    --text-color-white: rgb(170, 189, 197);
+    --text-outline: 0.5px rgb(3, 3, 34);
 }
 
 .scrollable .accordion-group .accordion-heading a span {
@@ -34,11 +36,13 @@ alert alert-info p {
 }
 
 .social-sidebar {
-    font-size: 10px;
+    font-size: 12px;
+    color: var(--text-color-white);
+    -webkit-text-stroke: var(--text-outline);
 }
 
 .row-fluid {
-    background-color: gray;
+    background-color: rgb(38, 38, 39);
 }
 
 .override {
@@ -63,6 +67,8 @@ span12 header {
 .span12 .table table-bordered table-striped table-condensed,
 .tab-pane active .accordion-group {
     background-color: gray;
+    color: var(--text-color-white);
+    -webkit-text-stroke: var(--text-outline);
 }
 
 .span6 header {
