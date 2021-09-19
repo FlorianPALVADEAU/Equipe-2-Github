@@ -1,6 +1,3 @@
-/*
-Ceci est le css de florian le bg ultime. Je code de mon coté parce que ça fait 3x que quand je pull votre code reset le miens donc bon voilà
-*/
 * {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -34,8 +31,9 @@ container-fluid {
 }
 
 
-alert alert-info p {
+.alert alert-info p {
     color: var(--text-color);
+    background-color: #333b35;
 }
 
 .social-sidebar {
@@ -63,7 +61,8 @@ alert alert-info p {
 }
 
 .body {
-    background-color: var(--background-color-features);
+    background-color: black;
+    color: #748077;
 }
 
 footer {
@@ -73,8 +72,6 @@ footer {
 .footer-sidebar-full {
     background-color: var(--background-color-features);
 }
-
-
 
 span12 header {
     background-color: #714d95;
@@ -105,4 +102,20 @@ span12 header {
 
 .well well-condensed {
     background-color: var(--background-color-features);
+}
+
+.social-box
+{
+    background-color: #333b35;
+}
+
+.well-header
+{
+    background-color: black;
+    color: black;
+}
+
+.row-fluid
+{
+    background-color: black;
 }
