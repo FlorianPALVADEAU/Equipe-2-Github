@@ -3,11 +3,13 @@
 }
 
 :root {
+
     --background-color-features: #ededed;
     --background-color-edt: #919191;
     --background-color-body: #272727;
     --text-color: #151313;
 }
+
 
 
 .scrollable,
